@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello! Qiita CLI")
+	config := LoadConfig()
+	fmt.Println(config.Token)
 }
